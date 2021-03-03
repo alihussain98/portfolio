@@ -1,0 +1,56 @@
+.about {
+  display: flex;
+  background-color: #191919;
+  padding: 100px;
+}
+
+.about__left {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+}
+
+.about__left > img {
+  width: 60%;
+  height: auto;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.about__right__heading > h1 {
+  padding-top: 40px;
+  font-size: 74px;
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+
+.about__right__desc > p {
+  padding-top: 30px;
+  color: white;
+  font-size: 24px;
+  line-height: 1.71429;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+.about__right__tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__tabs__items > Button {
+  padding-top: 30px;
+  background-color: #191919;
+  color: white;
+  font-size: 22px;
+}
+
+.about__tabs__items > Button:hover {
+  color: red;
+}
